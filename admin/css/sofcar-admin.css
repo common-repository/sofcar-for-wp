@@ -1,0 +1,421 @@
+/**
+ * All of the CSS admin-specific functionality
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#sofcar-plugin-topNav {
+    height: 55px;
+    top: 0px;
+    z-index: 10;
+    padding: 15px 0 !important;
+	margin-left: -20px;
+	margin-right: 0;
+    background-color: #23282d;
+    min-width: 200px;
+    font-family: 'Montserrat', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+#sofcar-plugin-topNav .sp-top-log{
+	padding: 5px 15px;
+	background-color:#fff;
+	max-height: 50px;
+	line-height: 10px;
+	border-radius: 2px;
+}
+
+.sofcar-plugin-hidden{ 
+	display: none;
+}
+
+.sofcar-plugin-init{ 
+	float: left;
+	width: 72%;
+	padding: 10px 2% 0 0;
+}
+
+.sofcar-plugin-init .button-primary{padding: 4px 25px;}
+
+.sofcar-plugin-sidebar{
+	float: left;
+	width: 26%;	
+	margin-top: 5px;
+}
+
+.sofcar-plugin-sidebar .postbox-container{
+	width:  100%;
+}
+
+.sofcar-plugin-sidebar .postbox{
+	min-width: 210px;
+	border: none !important;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.sofcar-plugin-sidebar .postbox-header .handle-actions{
+	display: none !important;
+}
+
+.sofcar-plugin-sidebar .postbox p{
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.sofcar-plugin-sidebar .toggle-indicator{display: none !important;}
+
+#sofcar-sidebar-support{
+	background: #fff url( "../../images/brand/help-person-min.png") right top no-repeat !important;
+	min-height: 160px;
+	padding: 0;
+	margin: 0;
+}
+
+.sofcar-top-bar-menu-item{
+	background-color: rgba(236, 173, 38, 0.1) !important;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	margin: 0px 8px !important;
+}
+
+.sofcar-top-bar-menu-item a:hover{ background:  none !important;}
+
+#sofcar-sidebar-support .hndle,#sofcar-sidebar-support .postbox-header{ border: none !important;}
+
+#sofcar-sidebar-support h4{
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 0;
+}
+
+.sofcar-sidebar-h2{ font-size: 16px; font-weight: bold; line-height: 40px; }
+
+.sofcar-plugin-main{ 
+	padding:  15px 30px 0 5px;
+	max-width: 1420px;
+}
+
+.sofcar-plugin-main h1{font-size: 1.5em; padding: 0 5px;}
+
+.sofcar-plugin-main .form-table td{padding: 0 10px;}
+
+.sofcar-plugin-main .form-table th{padding: 5px 10px 15px 0; max-width: 160px;}
+
+.sofcar-table-thu{ width: 40px; height: 40px; border-radius: 4px; }
+.sofcar-table-model-thu{ width: 45px; height: 30px;}
+
+.sofcar-td-nosync{
+	background-color: #fde5e7;
+}
+
+.sofcar-plugin-left {
+    display: block;
+    float: left;
+}
+
+.sofcar-plugin-right {
+    display: block;
+    float: right;
+}
+
+.sofcar-plugin-hr{ 
+	width: 100%;
+	margin: 20px 0;
+}
+
+#sofcar-plugin-topNav .txt {
+    font-size: 14px;
+    color:  #FFF;
+    line-height: 55px;
+    padding: 0 25px 0 0;
+}
+
+.sofcar-plugin-clear {
+    display: block;
+    clear: both;
+}
+
+#sofcar-plugin-topNav .irctopNavLogo {
+    padding: 5px 0 0 20px;
+	width: 350px;
+}
+
+.sofcar-plugin-input {
+    width: 100%;
+    padding: 3px 0;
+    text-align: center;
+    font-size: 12px;
+    color:  #333;
+	max-width: 600px;
+}
+
+.sofcar-plugin-auth {
+    padding: 3px 0;
+    text-align: center;
+    font-size: 12px;
+    color:  #333;
+}
+
+.sofcar-plugin-button-min {
+    background: none;
+    border: none;
+    background-color: #31383F;
+	color: #fff;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+	border-radius: 4px;
+}
+
+.sofcar-plugin-button-success{
+	border: none;
+	background-color: #18a899;
+	color: #fff;
+	padding: 5px 15px;
+	cursor: pointer;
+	border-radius: 3px; 
+	font-size: 11px;
+}
+
+.sofcar-plugin-button-wp{
+	border: none;
+	background-color: #008ec2;
+	color: #fff;
+	padding: 5px 15px;
+	cursor: pointer;
+	border-radius: 3px; 
+	font-size: 11px;
+}
+
+.sofcar-plugin-button-danger{
+	border: none;
+	background-color: #ff0000;
+	color: #fff;
+	padding: 5px 15px;
+	cursor: pointer;
+	border-radius: 3px; 
+	font-size: 11px;
+}
+
+.sofcar-plugin-button-side{
+	padding: 2px 0;
+	width: 150px;
+	font-size: 14px;
+	font-weight: 700;
+	white-space: normal;
+	background-color: #ff9f00;
+	border-color: #ff9f00;
+	cursor: pointer;
+	color: #fff;
+	border-radius: .25rem;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.wp-core-ui .notice-info.is-dismissible, .notice-error{
+	display: none;
+}
+
+.sofcar-plugin-main .notice-error{
+	display: block !important;
+}
+
+.wp-core-ui .notice.is-dismissible{
+	margin: 10px 0 0 0;
+}
+
+.sofcar-plugin-txt-min{ 
+	font-size: 11px !important; 
+}
+
+.sofcar-wp-table{
+	margin-top: 10px;
+}
+
+.sofcar-wp-table td{ 
+	font-size: 13px !important; line-height:  18px !important;
+}
+
+.sofcar-wp-table .dashicons{
+	font-size: 16px;
+	line-height: 20px;
+	opacity: 0.8;
+}
+
+.sofcar-wp-table.striped > tbody > :nth-child(2n+1){background-color: #f9f9fc !important;}
+
+.sofcar-wp-table-settings td{ font-size: 14px !important; line-height:  18px !important; }
+
+.sofcar-wp-not-import{
+	color: #999;
+	font-size: 11px;
+	color: #c6412b;
+}
+
+
+.sofcar-widget-table{
+	padding: 20px 10px !important;
+	border: 1px solid #ccc;
+	width: 98%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background-color: #f8f8f8;
+}
+
+.sofcar-widget-table select{
+	font-size: 12px !important;
+	line-height: 28px !important;
+	max-width: 130px !important;
+}
+
+.sofcar-wp-settings-table{
+	max-width: 900px;
+}
+
+.sofcarsubsub{ margin: 0 !important;}
+
+.sofcar-plugin-txt-danger{
+	color: #c00;
+	text-decoration: none;
+}
+
+.sofcar-plugin-txt-danger:hover{
+	color: #c00;
+}
+
+.sofcar-plugin-footer{
+	font-size: 12px; 
+	margin: 0;
+	font-style: italic;
+}
+
+.sofcar-plugin-footer strong{
+	line-height: 25px;	
+}
+
+.sofcar-plugin-notice{
+	margin: 0;
+	padding: 10px 30px 30px 20px;
+	color: #666;
+	background-color: #fff;
+	margin-top: 30px;
+}
+
+.sofcar-plugin-notice h1{ padding: 0; }
+
+.sofcar-plugin-shortocode-line{
+	padding:0; 
+	font-size: 15px;
+	font-weight: 450;
+	justify-content: center;
+	border-width: 1px;
+	border-style: dashed;
+	border-color:#aaa;
+	background-color:transparent;
+	color:#23282d;
+	line-height: 18px;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center; 
+	background-color: #fcf7d8;
+}
+	
+.sofcar-plugin-shortocode-steps{
+	text-align: left; 
+	margin: 30px 0 0 20px;
+}
+
+.sofcar-plugin-shortocode-steps h3{
+	font-size: 1.2em;
+}
+
+.sofcar-plugin-shortocode-steps ul{ margin-left: 10px; }
+.sofcar-plugin-shortocode-steps li{
+	margin: 0 !important;
+}
+
+.update-nag{ 
+	display: none;
+}
+
+.sofcar-nav-tab-started{background-color: #0073aa !important;color: #fff !important; padding: 5px 25px !important;border-color: #0073aa !important}
+
+.sofcar-plugin-left-settings{
+	display: block;
+    float: left;
+	width: 30%;
+}
+
+.sofcar-plugin-left-settings img{ padding: 30px 0 0 0;}
+
+.sofcar-plugin-right-settings{
+	display: block;
+    float: left;
+	width: 70%;
+}
+
+.sofcar-plugin-right-settings h2{ font-size: 25px !important; }
+
+.sofcar-plugin-top-settings-btn{ color: #fff; background-color: #029a71; padding: 8px 20px; border-radius: 5px;text-decoration: none;}
+
+.sofcar-plugin-action-btn{ color: #fff !important; border-color: #0071a1 !important; background: #0071a1 !important; }
+
+.sofcar-sidebar-btn2{ padding: 0 20px !important;font-size: 14px !important;color: #fff !important; border-color: #179c8e !important; background: #179c8e !important}
+
+.sofcar-plugin-status{ padding: 2px 10px;  text-align: center; border-radius: 4px;}
+.sofcar-status-1{  background-color: #0071a1; color: #fff; }
+.sofcar-status-2{  background-color: #1dc9b7; color: #fff;font-weight: bold;}
+.sofcar-status-3{  background-color: #fd397a; color: #fff;}
+
+
+@media screen and (max-width: 850px) {
+  
+	.sofcar-plugin-main .nav-tab{ margin: 5px 5px 0 0; padding: 5px 8px !important;	}
+	
+	.sofcar-plugin-main .tablenav.top{margin: 10px 0 5px 0 !important;}
+	
+	.sp-hidden-mobile{ display:  none !important; }
+	
+	.sofcar-widget-table select{ width: 100% !important; max-width: 100% !important;margin-bottom: 5px; }
+	
+	.sofcar-widget-table .button{ width: 100% !important; max-width: 100% !important; }
+	
+	.sofcar-plugin-init,.sofcar-plugin-sidebar{ width: 100%; }
+	
+	.sofcar-plugin-sidebar{ margin-top: 15px;}
+	
+	.sofcar-plugin-init .tablenav.top .actions{ display:  block !important; }
+	
+	.row-actions{ display: inline-table !important; }
+	
+	#sofcar-plugin-topNav{ height: 95px; }
+	
+	#sofcar-plugin-topNav .sofcar-plugin-left{ width: 100%;text-align: center; }
+	
+	#sofcar-plugin-topNav .txt{padding: 0;text-align: center;width: 100%;}
+	
+	
+}
+
+@media screen and (max-width: 780px) {
+	
+	.sofcar-plugin-left-settings{ display: none !important;}
+	.sofcar-plugin-right-settings{ width: 100% !important; }
+	
+}
+
+@media screen and (max-width: 580px) {
+	
+	#sofcar-plugin-topNav .txt{ font-size: 12px;}
+	
+	#sofcar-plugin-topNav img { max-width: 250px; }
+	
+}
+	
